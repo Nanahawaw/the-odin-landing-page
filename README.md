@@ -21,6 +21,8 @@ The makeup landing page is themed around the world of beauty and cosmetics. The 
 
 The project is structured as follows:
 
+
+```
 theodinproject-makeup-landing/
 │
 ├── assets/
@@ -33,6 +35,7 @@ theodinproject-makeup-landing/
 ├── contact.html # Contact Us page
 │
 └── README.md # Documentation
+```
 
 ## Development
 
