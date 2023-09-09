@@ -22,7 +22,7 @@
   <body>
     <div class="container">
       <div class="header">
-        <nav class="navbar navbar-expand-lg custom-navbar navbar-fixed">
+        <nav class="navbar navbar-expand-lg custom-navbar">
           <div class="container-fluid">
             <a class="navbar-brand custom-nav-link" href="landing.html">
               <img
@@ -33,71 +33,89 @@
             </a>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav navbar-right">
-                <li class="nav-item custom-nav-item">
-                  <a
-                    class="nav-link custom-nav-link"
-                    aria-current="page"
-                    href="landing.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item custom-nav-item">
-                  <a
-                    class="nav-link custom-nav-link"
-                    aria-current="page"
-                    href="#"
-                    >About</a
-                  >
-                </li>
-                <li class="nav-item custom-nav-item">
-                  <a class="nav-link custom-nav-link" href="#">Catalog</a>
-                </li>
-                <li class="nav-item custom-nav-item">
-                  <a class="nav-link custom-nav-link" href="#">Contact Us</a>
-                </li>
-              </ul>
-              <form class="d-flex navbar-search search-input" role="search">
-                <div class="search-input-wrapper">
-                  <input
-                    class="form-control me-2"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                </div>
-              </form>
+              <div class="d-flex justify-content-between w-100">
+                <ul class="navbar-nav navbar-right">
+                  <li class="nav-item custom-nav-item">
+                    <a
+                      class="nav-link custom-nav-link"
+                      aria-current="page"
+                      href="landing.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item custom-nav-item">
+                    <a
+                      class="nav-link custom-nav-link"
+                      aria-current="page"
+                      href="about.html"
+                      >About</a
+                    >
+                  </li>
+                  <li class="nav-item custom-nav-item">
+                    <a class="nav-link custom-nav-link" href="catalog.html"
+                      >Catalog</a
+                    >
+                  </li>
+                  <li class="nav-item custom-nav-item">
+                    <a class="nav-link custom-nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+
+                <form
+                  class="d-flex navbar-search search-input ml-auto"
+                  role="search"
+                >
+                  <div class="search-input-wrapper">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
+          <!--container-fluid-->
         </nav>
-        <div class="header-section">
-          <div class="row g-5">
-            <div class="header-text col">
-              <p>
-                <span class="glamour-oasis">
-                  Glamour <span class="oasis"> <em>Oasis</em> </span></span
-                ><br />
-                Dive into a world where beauty meets artistry at Glamour Oasis.
-                Curated for the modern beauty enthusiast, our platform showcases
-                an exquisite range of makeup products and tutorials, marrying
-                luxury with accessibility. Whether you're seeking the latest
-                trends, timeless elegance, or eco-friendly options, we've got
-                you covered. Glamour Oasis is more than just a makeup
-                website—it's where your beauty journey evolves and dreams become
-                reality. Join us and illuminate your unique essence.
-              </p>
-            </div>
-            <div class="header-img col">
-              <img
-                src="assets/images/Rectangle 1 (10).png"
-                class="header-img img-fluid"
-              />
-            </div>
-          </div>
-        </div>
       </div>
+      <!--header-->
+
+      <div class="header-section">
+        <div class="row g-5">
+          <div class="header-text col">
+            <p>
+              <span class="glamour-oasis">
+                Glamour <span class="oasis"> <em>Oasis</em> </span></span
+              ><br />
+              Dive into a world where beauty meets artistry at Glamour Oasis.
+              Curated for the modern beauty enthusiast, our platform showcases
+              an exquisite range of makeup products and tutorials, marrying
+              luxury with accessibility. Whether you're seeking the latest
+              trends, timeless elegance, or eco-friendly options, we've got you
+              covered. Glamour Oasis is more than just a makeup website—it's
+              where your beauty journey evolves and dreams become reality. Join
+              us and illuminate your unique essence.
+            </p>
+          </div>
+          <!--header-text-->
+          <div class="header-img col">
+            <img
+              src="assets/images/Rectangle 1 (10).png"
+              class="header-img img-fluid"
+            />
+          </div>
+          <!--header-img-->
+        </div>
+        <!--row-->
+      </div>
+      <!--header-section-->
+
       <a href="catalog.html" class="catalog-link">
-        <button type="button" class="btn catalog-button">Catalog</button></a
+        <button type="button" class="btn catalog-button">
+          View Catalog
+        </button></a
       >
       <div class="featured">
         <h2><strong>Featured</strong></h2>
@@ -110,7 +128,9 @@
                 alt="lipstick"
               />
             </div>
+            <!--col-end-->
           </div>
+          <!--col-end-->
           <div class="col-md-4 my-3">
             <div class="card mx-4">
               <img
@@ -119,7 +139,9 @@
                 alt="brushes"
               />
             </div>
+            <!--col-end-->
           </div>
+          <!--col-end-->
           <div class="col-md-4 mr-md-5 my-3">
             <div class="card mx-5">
               <img
@@ -128,9 +150,13 @@
                 alt="cosmetics"
               />
             </div>
+            <!--col-end-->
           </div>
+          <!--card-end-->
         </div>
+        <!--row-->
       </div>
+      <!--featured-->
       <div class="quote">
         <p class="quote-text">
           <em>
@@ -141,6 +167,7 @@
           <span class="author"><strong>- Isabelle Anderson.</strong></span>
         </p>
       </div>
+      <!--quote-end-->
       <div class="signup">
         <div class="action">
           <p>
@@ -151,10 +178,13 @@
             <button type="button" class="btn catalog-button">Sign-Up</button></a
           >
         </div>
+        <!--sign-up end-->
       </div>
+      <!--action-end-->
       <footer>
         <p>copyright &copy Nans 2023</p>
       </footer>
     </div>
+    <!--container-end-->
   </body>
 </html>
