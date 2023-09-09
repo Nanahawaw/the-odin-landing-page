@@ -1,11 +1,9 @@
 .custom-navbar {
   background-color: #1f2937;
+  height: 100px;
 }
 .custom-nav-link {
   color: #f9faf8;
-}
-.navbar .navbar-search {
-  margin-left: 395px;
 }
 
 .search-input-wrapper {
@@ -13,7 +11,7 @@
 }
 
 .search-input {
-  padding-left: 40px; /* Make space for the icon */
+  padding-left: 200px; /* Make space for the icon */
 }
 
 .search-input-wrapper::before {
@@ -28,18 +26,20 @@
 .header-section {
   background-color: #1f2937;
   color: #f9faf8;
-  padding-top: 150px;
+  padding-top: 120px;
+  position: relative;
 }
 
 .header .header-text {
-  width: 500px;
   text-align: justify;
 }
-
-.header-image img {
-  width: 500px;
+.g-5,
+.gx-5 {
+  --bs-gutter-x: 15rem;
 }
-
+.row > * {
+  padding-right: 0;
+}
 .glamour-oasis {
   font-size: 48px;
   font-weight: 800px;
@@ -56,9 +56,10 @@ p {
   background-color: blueviolet;
   color: #f9faf8;
   position: relative;
-  top: -150px;
-  padding: 5px 32px;
+  bottom: 180px;
+  padding: 12px 32px;
   cursor: pointer;
+  font-size: 1.17rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   transition: 200ms ease-in-out;
 }
@@ -156,4 +157,16 @@ body {
   top: 0;
   width: 100%;
   z-index: 1030; /* Ensures the navbar stays above other content */
+}
+.container {
+  overflow: hidden;
+}
+.container-fluid {
+  --bs-gutter-x: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar {
+  --bs-navbar-nav-link-padding-x: 3.6rem;
+  font-size: 1.17rem;
 }
