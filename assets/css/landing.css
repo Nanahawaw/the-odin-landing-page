@@ -259,3 +259,53 @@ footer .footer-main .footer-tag p {
   text-align: center;
   font-weight: 800;
 }
+/*contact*/
+.contact-logo {
+  height: 150px;
+  background-color: #1f2931;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
+}
+.contact-logo h2 {
+  color: #f9faf8;
+  padding-left: 10px;
+}
+.contact-logo input {
+  height: 40%;
+  width: 320px;
+}
+input::placeholder {
+  padding-left: 22px;
+}
+.contact-logo i {
+  position: relative;
+  top: 10px;
+  left: -320px;
+}
+#contact {
+  padding-left: 60px;
+}
+#contact p {
+  text-align: start;
+}
+#contact form {
+  width: 75%;
+}
+#contact .icon {
+  filter: invert(100%);
+}
+#contact .member {
+  color: #5a6d7c;
+}
+.other-contact .others {
+  color: #5a6d7c;
+  font-size: 0.86rem;
+}
+.laura {
+  color: #5a6d7c;
+}
+.form-text {
+  filter: opacity(0.5);
+}
