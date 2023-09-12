@@ -10,7 +10,7 @@ a {
   text-decoration: none;
 }
 section {
-  padding: 100px 0 0 0;
+  padding: 80px 0px 0 0px;
 }
 
 #home {
@@ -39,6 +39,7 @@ section {
   background-color: blueviolet;
   color: #f9faf8;
   margin-top: 5px;
+  border-radius: 50px;
   transition: 200ms ease-in-out;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -46,7 +47,52 @@ section {
   background-color: #1f2937;
   color: #f9faf8;
 }
-
+.carousel img {
+  border-radius: 15px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+.carousel-indicator {
+  filter: invert(100%);
+}
+.carousel-indicators .active {
+  background-color: blueviolet;
+}
+.carousel-indicators .inactive {
+  background-color: black;
+}
+.featured {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Poppins";
+}
+#carousel {
+  margin-top: 0;
+}
+#mycarousel {
+  margin-top: 50px;
+}
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  height: 170px;
+}
+.quote p {
+  padding-top: 50px;
+  width: 80%;
+  text-align: start;
+  margin-left: 80px;
+  font-size: 1.2rem;
+}
+.quote p .author {
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+}
 /*About-section*/
 #about {
   padding: 20px;
@@ -145,9 +191,7 @@ p {
   bottom: 120px;
   right: -220px;
 }
-body {
-  font-family: "Poppins";
-}
+
 /*footer*/
 footer {
   width: 100%;
@@ -163,13 +207,13 @@ footer .footer-main {
 footer .footer-main .footer-tag {
   text-align: left;
 }
-footer .footer-main .footer-tag h2 {
+footer .footer-main .footer-tag h3 {
   margin-bottom: 25px;
-  font-size: 25px;
 }
 footer .footer-main .footer-tag p {
   margin: 10px 0;
   text-align: left;
+  font-size: 0.9rem;
 }
 .btn {
   border: 1px solid;
