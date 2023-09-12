@@ -6,6 +6,19 @@
 .navbar-brand img {
   height: 50px;
 }
+.navbar .icons i {
+  color: #e5e7eb;
+  display: inline-flex;
+  margin-left: 10px;
+  justify-content: space-between;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+
+.navbar .icons i:hover {
+  color: #f9faf8;
+}
 a {
   text-decoration: none;
 }
