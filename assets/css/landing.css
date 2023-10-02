@@ -275,14 +275,6 @@ footer .footer-main .footer-tag p {
   color: #f9faf8;
 }
 
-input::placeholder {
-  padding-left: 22px;
-}
-.contact-logo i {
-  position: relative;
-  top: 10px;
-  left: -320px;
-}
 #contact {
   padding-left: 60px;
 }
