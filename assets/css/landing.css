@@ -267,19 +267,14 @@ footer .footer-main .footer-tag p {
 .contact-logo {
   height: 150px;
   background-color: #1f2931;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 20px;
-  align-items: center;
+}
+.contact-search {
+  margin: 0 auto;
 }
 .contact-logo h2 {
   color: #f9faf8;
-  padding-left: 10px;
 }
-.contact-logo input {
-  height: 40%;
-  width: 320px;
-}
+
 input::placeholder {
   padding-left: 22px;
 }
