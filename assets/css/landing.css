@@ -2,9 +2,13 @@
 .navbar {
   background-color: #1f2937;
   color: #f9faf8;
+  height: 85px;
+  font-size: 18px;
+  font-family: "Montserrat";
 }
-.navbar-brand img {
-  height: 50px;
+.navbar-logo {
+  color: blueviolet;
+  font-family: "mv boli";
 }
 .navbar .icons i {
   color: #e5e7eb;
