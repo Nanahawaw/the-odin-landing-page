@@ -130,8 +130,9 @@ section {
   justify-content: space-between;
 }
 .hero-text {
-  flex: 2; /* Allow the text to grow and occupy available space */
-  padding-right: 20px; /* Add some spacing between text and image */
+  /* Allow the text to grow and occupy available space */
+  /* Add some spacing between text and image */
+  padding: 20px;
 }
 
 .hero-text h1 {
