@@ -345,3 +345,28 @@ footer .footer-main .footer-tag p {
 .form-text {
   filter: opacity(0.5);
 }
+@media (max-width: 440px) {
+  .main-text p {
+    line-height: 1;
+    font-size: 0.9rem;
+    margin-top: 0;
+  }
+  section {
+    padding: 0;
+  }
+  .catalog-button {
+    margin-top: 20px;
+  }
+  .quote {
+    height: auto;
+  }
+  .quote p {
+    padding-top: 10px;
+    line-height: 1;
+    font-size: 0.7rem;
+    margin-left: 40px;
+  }
+  .quote p .author {
+    margin-top: 0;
+  }
+}
