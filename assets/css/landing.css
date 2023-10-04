@@ -112,7 +112,8 @@ section {
 }
 .hero {
   height: 90vh;
-
+  width: 100%;
+  max-width: 100%;
   /* Add your gradient and image */
   background: linear-gradient(
     90deg,
@@ -128,6 +129,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow-x: hidden;
 }
 .hero-text {
   /* Allow the text to grow and occupy available space */
@@ -152,7 +154,7 @@ section {
   font-size: 1.5rem;
   font-family: "Roboto sans-serif";
 }
-img {
+.hero-img {
   max-width: 100%; /* Adjust this as needed */
 }
 /*About-section*/
@@ -384,5 +386,8 @@ footer .footer-main .footer-tag p {
   }
   .socials {
     font-size: 20px;
+  }
+  .hero-img {
+    height: auto;
   }
 }
