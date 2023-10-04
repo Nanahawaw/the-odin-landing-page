@@ -111,9 +111,7 @@ section {
   margin-top: 5px;
 }
 .hero {
-  height: 90vh;
   width: 100%;
-  max-width: 100%;
   /* Add your gradient and image */
   background: linear-gradient(
     90deg,
