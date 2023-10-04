@@ -277,14 +277,7 @@ footer .footer-main .footer-tag p {
   text-align: left;
   font-size: 0.6rem;
 }
-@media (min-width: 600px) {
-  footer.footer-main {
-    flex-direction: column;
-  }
-  footer .footer-main .footer-tag p {
-    font-size: 0.9rem;
-  }
-}
+
 .btn {
   border: 1px solid;
   background-color: blueviolet;
@@ -377,5 +370,17 @@ footer .footer-main .footer-tag p {
   }
   .quote p .author {
     margin-top: 0;
+  }
+}
+@media (min-width: 800px) {
+  footer.footer-main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .footer-main .footer-tag p {
+    font-size: 0.9rem;
+  }
+  .socials {
+    font-size: 20px;
   }
 }
