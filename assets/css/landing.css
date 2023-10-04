@@ -372,6 +372,8 @@ footer .footer-main .footer-tag p {
     margin-top: 0;
   }
 }
+@media (max-width: 750px) {
+}
 @media (min-width: 800px) {
   footer.footer-main {
     flex-direction: row;
