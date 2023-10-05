@@ -126,7 +126,6 @@ section {
   background-position: center;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   overflow-x: hidden;
 }
 .hero-text {
@@ -136,9 +135,9 @@ section {
 }
 
 .hero-text h1 {
-  margin: 0;
-  font-size: 4.5rem;
-  display: inline-block;
+  margin: 10px;
+  font-size: 4rem;
+  display: block;
   line-height: 1;
   font-weight: 900;
   background-color: black;
